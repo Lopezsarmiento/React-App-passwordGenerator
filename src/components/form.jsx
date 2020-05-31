@@ -126,6 +126,11 @@ function generatePassword(hasUpper, hasLower, hasNumbers, hasSymbols, length) {
     return;
   }
 
+  if (length > 16) {
+    toast.warning("Password maximun length must be 16.", toastOpts);
+    return;
+  }
+
   if (typesCount === 0) {
     toast.warning("You must tick at least one checkbox.", toastOpts);
     return;
