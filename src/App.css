@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.top-5 {
+  margin-top: 10%;
+}
+
+.bottom-5 {
+  margin-bottom: 10%;
+}
+
+.fullHeight {
+  min-height: 100vh;
+}
