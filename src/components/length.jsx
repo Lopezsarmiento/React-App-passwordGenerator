@@ -5,7 +5,7 @@ function Length(props) {
   return (
     <div className="form-group row">
       <label htmlFor="pasword" className="col-sm-9 col-form-label">
-        Password Length
+        Password Length <small>(from 8 to 16)</small>
       </label>
       <div className="col-sm-3">
         <input
